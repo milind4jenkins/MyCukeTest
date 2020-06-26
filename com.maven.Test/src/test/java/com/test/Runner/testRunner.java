@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="/src/test/java/com/test/features",
-		glue="/src/test/java/com/test/seleniumGlueCode/"
+		features="src/test/java/com/test/features",
+		glue= {"com.test.seleniumGlueCode"}
 		
 		
 		)
